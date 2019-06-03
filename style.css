@@ -5,6 +5,7 @@ body {
     width: 960px;
     font-size: 18px;
     text-align: center;
+    align-content: center;
 
 }
 
@@ -24,6 +25,7 @@ section {
     padding: 20px;
     background: #ebebeb;
     width: 495px;
+    height: 330px;
     margin: 10px 0px 20px 0px;
     float: left;
 }
@@ -38,7 +40,7 @@ aside {
     padding: 20px;
     background: #ebebeb;
     width: 365px;
-    height: 320px;
+    height: 330px;
     margin: 10px 0px 20px 0px;
     float: right;
 }
