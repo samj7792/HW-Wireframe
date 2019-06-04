@@ -1,65 +1,80 @@
+/*These are the body adjustments, margin auto centers webpage*/
 body {
     font-family: Arial, 'Helvetica Neue', Helvetica, Sans-Serif;
     color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
-    text-align: center;
-    align-content: center;
+    margin: auto;
+
 
 }
 
+/*These are the header adjustments*/
 header {
+    text-align: center;
     background: #ebebeb; 
     padding: 20px;
     margin: 10px 0px 20px 0px;
 }
 
+/*Navigation bar*/
 nav {
-    padding:  20px;
+    text-align: center;
     background: #ebebeb;
+    padding:  20px;
     margin: 10px 0px 20px 0px;
 }
 
+/*Section, float left to make room for aside, set width*/
 section {
-    padding: 20px;
+    text-align: center;
     background: #ebebeb;
-    width: 495px;
+    padding: 20px;
+    margin: 10px 0px 20px 0px;    
+    width: 45%;
     height: 330px;
-    margin: 10px 0px 20px 0px;
     float: left;
 }
 
-article {
-    padding: 20px;
-    background: #777;
-    color: #ebebeb; 
-}
-
+/*Aside, float right to fit next to Section, set width*/
 aside {
-    padding: 20px;
+    text-align: center;
     background: #ebebeb;
-    width: 365px;
-    height: 330px;
+    padding: 20px;
     margin: 10px 0px 20px 0px;
+    width: 45%;
+    height: 330px;
     float: right;
 }
 
-h1 {
+article {
+    text-align: center;
+    background: #777;
     padding: 20px;
+    color: #ebebeb; 
+}
+
+h1 {
+    text-align: center;
     background: #ebebeb;
+    padding: 20px;
     color: #777;
 }
 
 p {
+    text-align: center;
+    background: #ebebeb;
     padding: 20px;
     color: #777;
-    background: #ebebeb;
 }
 
+
+/*Footer- 'clear: both' separates it from Section and Aside*/
 footer {
-    padding: 20px;
+    text-align: center;
     background: #ebebeb;
+    padding: 20px;
     margin: 10px 0px 20px 0px;
     clear: both;
 }
